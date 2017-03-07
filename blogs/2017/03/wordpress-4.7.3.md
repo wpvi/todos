@@ -3,6 +3,7 @@
 Hiên tại WordPress 4.7.3 đã sẵn sàng để tải về. Đây là phiên bản cập nhật bảo mật cho tất cả các bản WordPress trước và bạn nên cập nhật các website của bạn càng sớm càng tốt.
 
 WordPress 4.7.2 và các phiên bản trước đó gặp phải sáu lỗi bảo mật sau:
+
 1. Lỗi cross-site scripting (XSS) thông qua metadata của tệp tinh đa phương tiện. Lỗi này được phát hiện bởi [Chris Andrè Dale](https://www.securesolutions.no/), [Yorick Koster](https://twitter.com/yorickkoster), và Simon P. Briggs.
 
 1. Các control characters có thể vượt qua trình kiểm tra URL chuyển hướng. Phát hiện bởi [Daniel Chatfield](http://www.danielchatfield.com/).
