@@ -4,11 +4,16 @@ Hiên tại WordPress 4.7.3 đã sẵn sàng để tải về. Đây là phiên 
 
 WordPress 4.7.2 và các phiên bản trước đó gặp phải sáu lỗi bảo mật sau:
 1. Lỗi cross-site scripting (XSS) thông qua metadata của tệp tinh đa phương tiện. Lỗi này được phát hiện bởi [Chris Andrè Dale](https://www.securesolutions.no/), [Yorick Koster](https://twitter.com/yorickkoster), và Simon P. Briggs.
-2. Các control characters có thể vượt qua trình kiểm tra URL chuyển hướng. Phát hiện bởi [Daniel Chatfield](http://www.danielchatfield.com/).
-3. Quản trị viên có thể sử dụng chức năng xoá file của plugin để xoá những file không mong muốn. Phát hiện bởi [xuliang](http://b.360.cn/);
-4. Lỗi cross-site scripting (XSS) thông qua đường dẫn của video khi nhúng video Youtube vào bài viết. Phát hiện bởi [Marc Montpas](https://twitter.com/marcs0h).
-5. Lỗi cross-site scripting (XSS) thông qua tên của taxonomy term. Phát hiện bởi [Delta](https://profiles.wordpress.org/deltamgm2);
-6. Lỗi cross-site request forgery (CSRF) của tính năng Press This dẫn đến việc chiếm dụng tài nguyên của máy chủ đặt website. Phát hiện bởi Sipke Mellema.
+
+1. Các control characters có thể vượt qua trình kiểm tra URL chuyển hướng. Phát hiện bởi [Daniel Chatfield](http://www.danielchatfield.com/).
+
+1. Quản trị viên có thể sử dụng chức năng xoá file của plugin để xoá những file không mong muốn. Phát hiện bởi [xuliang](http://b.360.cn/);
+
+1. Lỗi cross-site scripting (XSS) thông qua đường dẫn của video khi nhúng video Youtube vào bài viết. Phát hiện bởi [Marc Montpas](https://twitter.com/marcs0h).
+
+1. Lỗi cross-site scripting (XSS) thông qua tên của taxonomy term. Phát hiện bởi [Delta](https://profiles.wordpress.org/deltamgm2);
+
+1. Lỗi cross-site request forgery (CSRF) của tính năng Press This dẫn đến việc chiếm dụng tài nguyên của máy chủ đặt website. Phát hiện bởi Sipke Mellema.
 
 Xin cảm mọi người đã tham gia phát hiện lỗi trong phiên bản này.
 
