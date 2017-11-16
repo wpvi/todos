@@ -21,7 +21,7 @@
  */
 
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
-/** Tên database MySQL*/
+/** Tên database MySQL */
 define('DB_NAME', 'database_name_here');
 
 /** username của database */
