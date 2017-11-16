@@ -24,16 +24,16 @@
 /** Tên database MySQL */
 define('DB_NAME', 'database_name_here');
 
-/** username của database */
+/** Username của database */
 define('DB_USER', 'username_here');
 
 /** Mật khẩu của database */
 define('DB_PASSWORD', 'password_here');
 
-/** hostname của database*/
+/** Hostname của database*/
 define('DB_HOST', 'localhost');
 
-/** database charset sử dụng để tạo bảng database. */
+/** Database charset sử dụng để tạo bảng database. */
 define('DB_CHARSET', 'utf8');
 
 /** Kiểu database collate. Đừng thay đổi nếu không hiểu rõ. */
@@ -73,7 +73,7 @@ $table_prefix  = 'wp_';
  * Dành cho developer: Chế độ debug.
  *
  * Thay đổi hằng số này thành true sẽ làm hiện lên các thông báo trong quá trình phát triển.
- * Chúng tôi mạnh mẽ đề nghị các nhà developer sử dụng WP_DEBUG trong quá trình phát triển các plugin, theme.
+ * Chúng tôi khuyến cáo các nhà developer sử dụng WP_DEBUG trong quá trình phát triển các plugin, theme.
  *
  * Để có thông tin về các hằng số khác có thể sử dụng khi debug, hãy xem tại Codex.
  *
