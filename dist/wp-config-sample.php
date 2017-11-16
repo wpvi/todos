@@ -65,7 +65,7 @@ define('NONCE_SALT',       'khóa không trùng nhau');
  * Tiền tố cho bảng database.
  *
  * Đặt tiền tốt cho bảng giúp bạn có thể cài nhiều site WordPress lên một database.
- * Chỉ sử dụng số, kỹ tự và dấu gạch dưới!
+ * Chỉ sử dụng số, ký tự và dấu gạch dưới!
  */
 $table_prefix  = 'wp_';
 
