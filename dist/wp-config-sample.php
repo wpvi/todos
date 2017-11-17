@@ -30,7 +30,7 @@ define('DB_USER', 'username');
 /** Mật khẩu của database */
 define('DB_PASSWORD', 'mat_khau');
 
-/** Hostname của database*/
+/** Hostname của database */
 define('DB_HOST', 'localhost');
 
 /** Database charset sử dụng để tạo bảng database. */
@@ -45,8 +45,8 @@ define('DB_COLLATE', '');
  * Thay đổi các giá trị dưới đây thành các khóa không trùng nhau!
  * Bạn có thể tạo ra các khóa này bằng công cụ
  * {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
- * Bạn có thể thay đổi nó bất cứ lúc nào để vô hiệu hóa tất cả
- * các cookie hiện có. Điều này sẽ buộc tất cả người dùng phải đăng nhập tại.
+ * Bạn có thể thay đổi chúng bất cứ lúc nào để vô hiệu hóa tất cả
+ * các cookie hiện có. Điều này sẽ buộc tất cả người dùng phải đăng nhập lại.
  *
  * @since 2.6.0
  */
@@ -73,7 +73,7 @@ $table_prefix  = 'wp_';
  * Dành cho developer: Chế độ debug.
  *
  * Thay đổi hằng số này thành true sẽ làm hiện lên các thông báo trong quá trình phát triển.
- * Chúng tôi khuyến cáo các nhà developer sử dụng WP_DEBUG trong quá trình phát triển các plugin, theme.
+ * Chúng tôi khuyến cáo các developer sử dụng WP_DEBUG trong quá trình phát triển plugin và theme.
  *
  * Để có thông tin về các hằng số khác có thể sử dụng khi debug, hãy xem tại Codex.
  *
@@ -81,7 +81,7 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
-/* Đó là tất cả thiết lập, ngưng sửa từ phần này trở xuống, Chúc bạn viết blog vui vẻ. */
+/* Đó là tất cả thiết lập, ngưng sửa từ phần này trở xuống. Chúc bạn viết blog vui vẻ. */
 
 /** Đường dẫn tuyệt đối đến thư mục cài đặt WordPress. */
 if ( !defined('ABSPATH') )
