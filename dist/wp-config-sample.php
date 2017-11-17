@@ -22,13 +22,13 @@
 
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
 /** Tên database MySQL */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'ten_database');
 
 /** Username của database */
-define('DB_USER', 'username_here');
+define('DB_USER', 'username');
 
 /** Mật khẩu của database */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'mat_khau');
 
 /** Hostname của database*/
 define('DB_HOST', 'localhost');
@@ -40,13 +40,13 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /**#@+
- * Khóa xác thực và salts.
+ * Khóa xác thực và salt.
  *
  * Thay đổi các giá trị dưới đây thành các khóa không trùng nhau!
  * Bạn có thể tạo ra các khóa này bằng công cụ
  * {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
  * Bạn có thể thay đổi nó bất cứ lúc nào để vô hiệu hóa tất cả
- * các cookies hiện có. Điều này sẽ buộc tất cả người dùng phải đăng nhập tại.
+ * các cookie hiện có. Điều này sẽ buộc tất cả người dùng phải đăng nhập tại.
  *
  * @since 2.6.0
  */
@@ -64,7 +64,7 @@ define('NONCE_SALT',       'khóa không trùng nhau');
 /**
  * Tiền tố cho bảng database.
  *
- * Đặt tiền tốt cho bảng giúp bạn có thể cài nhiều site WordPress lên một database.
+ * Đặt tiền tố cho bảng giúp bạn có thể cài nhiều site WordPress vào cùng một database.
  * Chỉ sử dụng số, ký tự và dấu gạch dưới!
  */
 $table_prefix  = 'wp_';
