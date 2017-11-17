@@ -2,11 +2,9 @@
 /**
  * Cấu hình cơ bản cho WordPress
  *
- * Trong quá trình cài đặt, file "wp-config.php" sẽ được
- * tạo dựa trên nội dung mẫu của file này.
- * Bạn không bắt buộc phải sử dụng giao diện web
- * để cài đặt, chỉ cần lưu file này lại với tên "wp-config.php"
- * và điền các thông tin cần thiết.
+ * Trong quá trình cài đặt, file "wp-config.php" sẽ được tạo dựa trên nội dung 
+ * mẫu của file này. Bạn không bắt buộc phải sử dụng giao diện web để cài đặt, 
+ * chỉ cần lưu file này lại với tên "wp-config.php" và điền các thông tin cần thiết.
  *
  * File này chứa các thiết lập sau:
  *
