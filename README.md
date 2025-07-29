@@ -1,5 +1,4 @@
-# Quản lý todo của team WordPress.org Việt Nam
+### Repo tạm dừng hoạt động. 
 
-* Team: https://vi.wordpress.org/team
-* Tham gia Group Slack: https://vi.wordpress.org/team/slack-wordpress-viet-nam/
-* Danh sách todos: https://github.com/wpvi/todos/issues
+### Vui lòng vào trang https://www.facebook.com/groups/wpvnteam và https://vi.wordpress.org/team/ để cùng thảo luận :)
+
